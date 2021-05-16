@@ -1,0 +1,62 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "bootstrap-overrides.scss";
+
+
+.logo{
+    max-width: 100px;
+    border-radius: 13px;
+}
+
+.nav-link{
+    border: 1px solid rgba(36, 17, 32, 0.691);
+    border-radius: 10px  ;
+    margin: 0.2em;
+
+}
+
+.nav-link:hover {
+    background: #201c1e9d ;
+    box-shadow: 3px #1b0f1580;
+    border: 1px solid rgb(36, 17, 32);
+    border-radius: 10px  ;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .btn-outline-light{
+        width: 132px;
+    }
+}
+.rounded-circle{
+    box-shadow: 0px 30px 60px rgba(53, 11, 11, 0.609);
+}
+
+.text{
+    margin-top:  5px;
+    margin-left: 5px;
+    color:       brown;
+    font-size:   12px;
+    padding:     0;
+}
+
+.hide{
+    display: none;
+}
+.noHide{
+    display: block  ;
+}
